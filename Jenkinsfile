@@ -8,4 +8,7 @@ pipeline {
     }
 
   }
+  environment {
+    swaggerChecks = 'DISABLE'
+  }
 }
