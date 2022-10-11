@@ -1,14 +1,7 @@
-pipeline {
-  agent any
-  stages {
-    stage('Hello') {
-      steps {
-        sh 'echo $swaggerChecks'
-      }
-    }
+@Library("swaggerCheck") _
 
-  }
-  environment {
-    swaggerChecks = 'DISABLE'
-  }
+Akash {
+  
+  akashnani = "akash"
+  
 }
